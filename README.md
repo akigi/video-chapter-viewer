@@ -46,6 +46,8 @@ NOTE チャプター例
     - https://github.com/videojs/video.js
 - ドキュメント
     - https://docs.videojs.com/
+- プラグイン
+    - https://videojs.com/plugins
 
 ### Mozzila製WEBVTTパーサ`vtt.js`
 
