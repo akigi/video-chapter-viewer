@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-chapter-viewer</title>
+
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+
+        .hsplit{
+            display: flex;
+        }
+
+        .hsplit * {
+            /* debug */
+            /* border: 1px solid black; */
+        }
+
+        .left-pane{
+            width: 30%;
+        }
+
+        .right-pane{
+            width: 100%;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <head>
+        <h1>video-chapter-viewer</h1>
+    </head>
+
+    <div class="hsplit">
+        <div class="left-pane">
+            <div class="buttons">
+                <button>a</button>
+                <button>b</button>
+                <button>c</button>
+            </div>
+            <div class="chapters">
+                chapter
+            </div>
+        </div>
+        <div class="right-pane">
+            <video src="file_example_MP4_480_1_5MG.mp4"></video>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
